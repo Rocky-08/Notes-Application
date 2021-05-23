@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    
+ /*  background-image: linear-gradient(to bottom right, rgba(0, 0, 255, 0.493), rgba(255, 0, 0, 0.521) ); */
+   height: 100%;
+   width: 100%;
+   
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    border: 2px solid rgba(0, 0, 0, 0.363);
+    background-color: grey;
+    margin-bottom: 40px;
+    
+    
+}
+
+.btn,.Delete{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   /*  display: inline-block; */
+    position: absolute;
+    right: 300px; 
+    border: 2px solid white;
+    border-radius: 10px;
+    top: 16px;
+    font-size: 23px;
+    
+   padding: 3px 10px;
+   
+   
+
+
+}
+
+.btn:hover,
+.Delete:hover{
+    transform: translateY(2px);
+    
+    cursor: pointer;
+}
+
+.Delete{
+right: 100px;
+}
+
+.Notes-container{
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+
+
+  margin: 10px 20px 20px 20px;
+  
+
+  
+  
+}
+
+.note{
+    height: 290px;
+    width: 280px;
+}
+
+.Notes{
+    
+   
+    font-size: 22px;
+    padding: 10px;
+    border-top:10px solid rgba(255, 166, 0, 0.747) ;
+    border-radius:4px ;
+    background-color: rgba(255, 255, 0, 0.568);
+    resize: none;
+}
+
+
+
+.fa{
+    font-size: 20px;
+}
+
+.fa:hover{
+    color: rgba(0, 4, 219, 0.712);
+}
+    
+/* .fas{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+} */
+
+.hidden{
+    display: none;
+    position: absolute;
+}
+
+        
+      
+        
+        
+
+
+
+
